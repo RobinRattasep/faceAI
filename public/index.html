@@ -12,13 +12,12 @@
         <img id="preview" class="hidden" src="#" alt="Your Selfie" />
         <input type="file" accept="image/*" id="file-input" class="hidden" />
         <button id="upload-btn">Upload a Selfie</button>
-        <button id="take-selfie-btn">Take a Selfie</button>
         <button id="submit-btn" class="hidden">Submit for Analysis</button>
         <p id="loading" class="hidden">Analyzing your selfie...</p>
-        <div class="paywall hidden">
+
+        <div id="feedback-section">
             <h2>Feedback</h2>
-            <p><strong>Feedback:</strong> <span id="feedback-text"></span></p>
-            <p><strong>Rating:</strong> <span id="rating"></span></p>
+            <p id="feedback-text">Feedback: N/A</p>
         </div>
     </div>
     <script src="script.js"></script>
